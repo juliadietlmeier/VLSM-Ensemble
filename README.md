@@ -1,4 +1,4 @@
-# BiomedCLIP_experimenting
+# VLSM-Ensemble: Ensembling CLIP-based Vision-Language Segmentation Models
 experimenting on biomedclipseg and clipseg
 
 # To model UNet-D component:

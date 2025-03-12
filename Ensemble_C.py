@@ -20,7 +20,7 @@ from transformers import CLIPSegTextConfig
 resize_transform1 = transforms.Resize((224, 224))
 resize_transform2 = transforms.Resize((112, 112))
 
-    
+#https://github.com/changzy00/pytorch-attention/blob/master/attention_mechanisms/eca.py      
 class ECALayer(nn.Module):
     def __init__(self, channels, gamma=2, b=1):
         super().__init__()

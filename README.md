@@ -19,7 +19,7 @@ experimenting on biomedclipseg and clipseg
 If you have prepared the above three split folders correct, then the BKAI and CheXlocalize filenames should be located in the corresponding test folders
 
 # Acknowledgement
-This repo works with the experimental testbench, data splits and text prompts developed by **naamiinepal** in their **medvlsm** GitHub repo. Sincere thanks to their excellent work!
+This repo works with the experimental testbench, data splits and text prompts developed by **naamiinepal** in their **medvlsm** GitHub repo. Sincere thanks for their excellent work!
 
 # Citation
 Please, cite our paper

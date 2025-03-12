@@ -272,17 +272,14 @@ class UNet_D(nn.Module):
         self.conv22 = nn.Conv2d(64, 128, 3,  padding=1,bias=True)
         self.conv222 = nn.Conv2d(128, 128, 3,  padding=1,bias=True)
         self.bn2 = BatchNorm(128)
-        self.gn2 = nn.GroupNorm(4,128)
         
         self.conv33 = nn.Conv2d(128, 256, 3, padding=1,bias=True)
         self.conv333 = nn.Conv2d(256, 256, 3, padding=1,bias=True)
         self.bn3 = BatchNorm(256)
-        self.gn3 = nn.GroupNorm(4,256)
         
         self.conv44 = nn.Conv2d(256, 512, 3,  padding=1,bias=True)
         self.conv444 = nn.Conv2d(512, 512, 3, padding=1,bias=True)
         self.bn4 = BatchNorm(512)
-        self.gn4 = nn.GroupNorm(4,512)
         
         self.upconv41 = nn.Conv2d(640,1240,1)
         self.upconv4 = nn.ConvTranspose2d(1240, 546, kernel_size=2, stride=2)

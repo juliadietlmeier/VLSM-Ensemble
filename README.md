@@ -11,7 +11,7 @@ experimenting on biomedclipseg and clipseg
 7. Modify predict.py to save all predictions in a test set (We will need some of those for the paper)
 8. Once trained, this will save the checkpoint - then run predict.py from the command line interface
 
-# Filenames for qualitative results:
+# Filenames for qualitative results in the paper:
 **BKAI**: 3e732adb4c5d1580670d78b9d054d694.jpeg
 
 **CheXlocalize**: patient64548_study1_view1_frontal_airspace_opacity.jpg (image) or patient64548_study1_view1_frontal_airspace_opacity.png (mask)

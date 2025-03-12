@@ -21,7 +21,11 @@ If you have prepared the above three split folders correct, then the BKAI and Ch
 # Acknowledgement
 This repo works with the experimental testbench, data splits and text prompts developed by **naamiinepal** in their **medvlsm** GitHub repo. Sincere thanks for their excellent work!
 
-# Citation
-Please, cite our paper
+# Citations
+Julia Dietlmeier, Oluwabukola Grace Adegboro, Vayangi Ganepola, Aonghus Lawlor, Claudia Mazo and Noel E. O'Connor. "**VLSM-Ensemble: Ensembling CLIP-based vision-language
+models for enhanced medical image segmentation**", in MIDL 2025
+
+Kanchan Poudel, Manish Dhakal, Prasiddha Bhandari, Rabin Adhikari, Safal Thapaliya and Bishesh Khanal. "**Exploring Transfer Learning in Medical Image Segmentation
+using Vision-Language Models**", in MIDL 2024
 
 

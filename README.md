@@ -6,7 +6,7 @@ experimenting on biomedclipseg and clipseg
 2. Change paths to your data in train.py
 3. To train UNet-D run train.py from the command line interface with $python train.py
 4. Record the **average** Dice score and **standard deviation** (computed over the entire test set) for the Table 1
-5. Do not make any changes to **my_unet_model.py**! This component must be left unchaanged for fair comparison with VLSMs ensembles
+5. Do not make any changes to **UNet_D.py**! This component must be left unchaanged for fair comparison with VLSMs ensembles
 6. Modify paths to your test data in predict.py
 7. Modify predict.py to save all predictions in a test set (We will need some of those for the paper)
 8. Once trained, this will save the checkpoint - then run predict.py from the command line interface

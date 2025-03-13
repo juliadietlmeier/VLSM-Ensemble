@@ -26,7 +26,7 @@ The models can be integrated into the **medvlsm** repository https://github.com/
 If you have prepared the above three split folders correct, then the BKAI and CheXlocalize filenames should be located in the corresponding test folders
 
 # Acknowledgement
-This repo works with the experimental testbench, data splits and text prompts developed by **naamiinepal** in their **medvlsm** GitHub repo https://github.com/naamiinepal/medvlsm. Sincere thanks for their excellent work!
+This repo works with the experimental testbench, data splits and text prompts developed by **naamiinepal** (Poudel et al., 2024) in their **medvlsm** GitHub repo https://github.com/naamiinepal/medvlsm. Sincere thanks for their excellent work!
 
 # Citations
 Julia Dietlmeier, Oluwabukola Grace Adegboro, Vayangi Ganepola, Aonghus Lawlor, Claudia Mazo and Noel E. O'Connor. "**VLSM-Ensemble: Ensembling CLIP-based Vision-Language

@@ -4,8 +4,8 @@ experimenting on biomedclipseg and clipseg
 # To run our ensemble models
 The models can be integrated into the **medvlsm** repository https://github.com/naamiinepal/medvlsm with a few simple tricks:
 
-1. To run the BiomedCLIPSeg-A save BiomedCLIPSeg-A.py as medvlsm/src/models/biomedclipseg.py
-2. To run the CLIPSeg-B save CLIPSeg-B as medvlsm/src/models/clipseg.py
+1. To run the BiomedCLIPSeg-A save BiomedCLIPSeg_A.py as medvlsm/src/models/biomedclipseg.py
+2. To run the CLIPSeg-B save CLIPSeg_B.py as medvlsm/src/models/clipseg.py
 3. To run Ensemble-C save Ensemble_C.py as medvlsm/src/models/biomedclipseg.py and change configuartions in ...
    
 # To model UNet-D component

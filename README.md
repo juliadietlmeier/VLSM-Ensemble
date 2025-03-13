@@ -1,6 +1,16 @@
 # VLSM-Ensemble: Ensembling CLIP-based Vision-Language Segmentation Models
 experimenting on biomedclipseg and clipseg
 
+# Datasets
+
+Kvasir-SEG
+
+ClinicDB
+
+BUSI
+
+CheXlocalize
+
 # To run our ensemble models
 The models can be integrated into the **medvlsm** repository https://github.com/naamiinepal/medvlsm with a few simple tricks:
 

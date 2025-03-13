@@ -2,7 +2,7 @@
 experimenting on biomedclipseg and clipseg
 
 # Datasets
-For data preparation please follow th einstructions posted in the **medvlsm** repository
+For data preparation please follow the instructions posted in the **medvlsm** repository
 1. [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/)
 2. [ClinicDB](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)
 3. [BKAI](https://www.kaggle.com/c/bkai-igh-neopolyp/data)

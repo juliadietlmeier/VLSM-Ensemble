@@ -3,13 +3,10 @@ experimenting on biomedclipseg and clipseg
 
 # Datasets
 
-Kvasir-SEG
-
-ClinicDB
-
-BUSI
-
-CheXlocalize
+1. Kvasir-SEG
+2. ClinicDB
+3. BUSI
+4. CheXlocalize
 
 # To run our ensemble models
 The models can be integrated into the **medvlsm** repository https://github.com/naamiinepal/medvlsm with a few simple tricks:

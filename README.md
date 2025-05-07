@@ -3,7 +3,7 @@
 
 # Architecture
 
-<img src="https://github.com/user-attachments/assets/5197ebda-205d-40c8-9a97-5a918284dee3" width="500" />
+<img src="https://github.com/user-attachments/assets/5197ebda-205d-40c8-9a97-5a918284dee3" width="600" />
 
 # Datasets
 For data preparation please follow the instructions posted in the **medvlsm** repository

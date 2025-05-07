@@ -1,5 +1,7 @@
 # VLSM-Ensemble: Ensembling CLIP-based Vision-Language Segmentation Models
-[Accepted at MIDL 2025](https://openreview.net/forum?id=IJJJT1vIdX#discussion)).
+[Accepted at MIDL 2025](https://openreview.net/forum?id=IJJJT1vIdX#discussion).
+
+# Architecture
 
 # Datasets
 For data preparation please follow the instructions posted in the **medvlsm** repository

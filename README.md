@@ -3,6 +3,9 @@
 
 # Architecture
 
+![architecture_v3](https://github.com/user-attachments/assets/5197ebda-205d-40c8-9a97-5a918284dee3)
+
+
 # Datasets
 For data preparation please follow the instructions posted in the **medvlsm** repository
 1. [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/)

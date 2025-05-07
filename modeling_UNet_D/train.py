@@ -27,10 +27,10 @@ import numpy as np
 from early_stopping import EarlyStopping
 
 
-dir_img_train = Path('/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/data/kvasir_split/train/images/')
-dir_mask_train = Path('/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/data/kvasir_split/train/masks/')
-dir_img_val = Path('/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/data/kvasir_split/val/images/')
-dir_mask_val = Path('/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/data/kvasir_split/val/masks/')
+dir_img_train = Path('.../data/kvasir_split/train/images/')
+dir_mask_train = Path('.../data/kvasir_split/train/masks/')
+dir_img_val = Path('.../data/kvasir_split/val/images/')
+dir_mask_val = Path('.../data/kvasir_split/val/masks/')
 
 dir_checkpoint = Path('./checkpoints/')
 
@@ -106,7 +106,7 @@ def train_model(
     
     # initialize the early_stopping object
     early_stopping = EarlyStopping(patience=20, verbose=True, 
-                                   path='/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/checkpoints/checkpoint.pt')
+                                   path='.../checkpoints/checkpoint.pt')
 
     # 5. Begin training
     for epoch in range(1, epochs + 1):
@@ -186,7 +186,7 @@ def train_model(
                 print("Early stopping")
                 break
                        
-            model.load_state_dict(torch.load('/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/checkpoints/checkpoint.pt', weights_only=True))
+            model.load_state_dict(torch.load('.../checkpoints/checkpoint.pt', weights_only=True))
 
     return  model, avg_train_losses, avg_valid_losses
 

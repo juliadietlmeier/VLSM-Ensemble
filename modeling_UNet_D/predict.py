@@ -37,7 +37,7 @@ def predict_img(net,
 
 def get_args():
     parser = argparse.ArgumentParser(description='Predict masks from input images')
-    parser.add_argument('--model', '-m', default='/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/checkpoints/checkpoint.pt', metavar='FILE',
+    parser.add_argument('--model', '-m', default='.../checkpoints/checkpoint.pt', metavar='FILE',
                         help='Specify the file in which the model is stored')
     parser.add_argument('--input', '-i', metavar='INPUT', nargs='+', help='Filenames of input images', required=False)
     parser.add_argument('--output', '-o', metavar='OUTPUT', nargs='+', help='Filenames of output images')
@@ -85,10 +85,10 @@ if __name__ == '__main__':
     
     logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
     
-    src_test_dir='/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/data/kvasir_split/test/images/'
-    src_test_gt='/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/data/kvasir_split/test/masks/'
-    in_files = '/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/data/kvasir_split/cju0u82z3cuma0835wlxrnrjv.jpg'
-    out_files = '/home/daa/Desktop/Proposal/Code/Pytorch-UNet-master/data/kvasir_split/predictions/'
+    src_test_dir='.../data/kvasir_split/test/images/'
+    src_test_gt='.../data/kvasir_split/test/masks/'
+    in_files = '.../data/kvasir_split/cju0u82z3cuma0835wlxrnrjv.jpg'
+    out_files = '.../data/kvasir_split/predictions/'
 
     net = UNet_D(num_classes=1, BatchNorm=nn.BatchNorm2d)
 

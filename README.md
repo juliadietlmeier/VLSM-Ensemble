@@ -3,7 +3,7 @@
 
 # Architecture
 
-![architecture_v3](https://github.com/user-attachments/assets/5197ebda-205d-40c8-9a97-5a918284dee3) alt="Alt Text" style="width:50%; height:50%;"
+![architecture_v3](https://github.com/user-attachments/assets/5197ebda-205d-40c8-9a97-5a918284dee3 =100x200)
 
 # Datasets
 For data preparation please follow the instructions posted in the **medvlsm** repository

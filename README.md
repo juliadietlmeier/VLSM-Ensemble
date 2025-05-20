@@ -19,7 +19,7 @@ The models can be integrated into the **medvlsm** repository https://github.com/
 
 1. To run the BiomedCLIPSeg-A save BiomedCLIPSeg_A.py as medvlsm/src/models/biomedclipseg.py
 2. To run the CLIPSeg-B save CLIPSeg_B.py as medvlsm/src/models/clipseg.py
-3. To run Ensemble-C save Ensemble_C.py as medvlsm/src/models/biomedclipseg.py and change configurations in ...
+3. To run Ensemble-C save Ensemble_C.py as medvlsm/src/models/biomedclipseg.py 
    
 # To model UNet-D component
 1. prepare the datasets such that you have three split folders **train**, **val** and **test**. The images and masks need to have the same filenames! The split for each dataset is defined in /data/.../anns folders in https://github.com/naamiinepal/medvlsm. This will require reading .json files and re-saving images in our three folders. This is very important - we need to use the same splits as in medvlsm repository!

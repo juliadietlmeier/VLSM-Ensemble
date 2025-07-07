@@ -3,7 +3,7 @@
 
 # Poster
 <div align="center">
-   [Dietlmeier_2025_MIDL_A0_poster.pdf](https://github.com/user-attachments/files/21098083/Dietlmeier_2025_MIDL_A0_poster.pdf)
+   <img src="https://github.com/user-attachments/files/21098083/Dietlmeier_2025_MIDL_A0_poster.pdf />
 </div>
 
 # Architecture

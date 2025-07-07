@@ -2,8 +2,9 @@
 [Accepted at MIDL 2025](https://openreview.net/forum?id=IJJJT1vIdX#discussion)
 
 # Poster
+[Dietlmeier_2025_MIDL_A0_poster.pptx](https://github.com/user-attachments/files/21098119/Dietlmeier_2025_MIDL_A0_poster.pptx)
 
-[Dietlmeier_2025_MIDL_A0_poster.pdf](https://github.com/user-attachments/files/21098101/Dietlmeier_2025_MIDL_A0_poster.pdf)
+
 
 # Architecture
 <div align="center">

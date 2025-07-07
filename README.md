@@ -1,6 +1,11 @@
 # VLSM-Ensemble: Ensembling CLIP-based Vision-Language Segmentation Models
 [Accepted at MIDL 2025](https://openreview.net/forum?id=IJJJT1vIdX#discussion)
 
+# Poster
+<div align="center">
+   [Dietlmeier_2025_MIDL_A0_poster.pdf](https://github.com/user-attachments/files/21098083/Dietlmeier_2025_MIDL_A0_poster.pdf)
+</div>
+
 # Architecture
 <div align="center">
    <img src="https://github.com/user-attachments/assets/5197ebda-205d-40c8-9a97-5a918284dee3" width="600" />
